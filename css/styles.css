@@ -7,11 +7,21 @@
     --secondary-background-color:#2F303A;
 }
 body {
+    
+    margin: 0;
     font-family: 'Roboto',
     sans-serif;
     font-size: 14px;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+}
+html {
+    box-sizing: border-box;
+}
+*,
+ ::before,
+ ::after {
+    box-sizing: inherit;
 }
 
 a {
@@ -20,10 +30,20 @@ a {
 
 ul,
 li {
+    padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 
 /*heder*/
+.container-header {
+    display: inline-block;
+    width: 1200px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 .logo-fist,
 .logo-second {
     font-family: Raleway;
@@ -32,8 +52,8 @@ li {
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-
 }
+
 .logo-second {
     color: #000000;
 
@@ -42,6 +62,7 @@ li {
     color: var(--accent-color);
 }
 .list-nav .link {
+    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -56,6 +77,7 @@ li {
     color: var(--accent-color);
 }
 .list-contacts .link {
+    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -69,8 +91,12 @@ li {
 }
 
 /*hero*/
+.container-hero {
+    height: 600px;
+}
 h1 {
-   
+  
+   display: inline-block
     font-weight: 900;  
     font-size: 44px;
     line-height:1.36;
@@ -83,6 +109,11 @@ h1 {
 
 
 .button {
+    
+    
+    display: flex;
+    padding: 10px 32px;
+    min-width: 200px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -90,6 +121,7 @@ h1 {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border-radius: 4px solid;
     cursor: pointer;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -98,7 +130,7 @@ h1 {
 .button:hover,
 .button:focus {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 4px;
+    border-radius: 4px solid;
 }
 .button .primary {
     color: var(--title-tex-color);
@@ -110,6 +142,7 @@ h1 {
 }
 /*peculiarities*/
 .post-title {
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -130,6 +163,8 @@ h1 {
 /*we doing */
 .section-name 
 {
+    padding: 0;
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -197,12 +232,15 @@ h1 {
 }
 /* Portfolio Pagr*/
 .btn {
+    display: inline-block;
     font-family: inherit;
+    border-radius: 4px solid transparent;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 6px 22px;
     cursor: pointer;
     color: var(--title-tex-color);
 }
@@ -211,6 +249,22 @@ h1 {
     color: #FFFFFF;
     background: #2196F3;
 }
+.one {
+    min-width: 73px;
+ }
+ .two {
+     min-width: 128px;
+ }
+ .three{
+     min-width: 145px;
+ }
+ .four {
+     min-width: 103px;
+    
+ }
+ .five {
+     min-width: 130px;
+ }
 /*portfolio section*/
 .card-name {
     

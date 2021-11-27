@@ -29,19 +29,19 @@ a {
 }
 
 ul,
-li {
-    padding: 0;
+li { 
     margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
 /*heder*/
 .container-header {
-    display: inline-block;
+   
     width: 1200px;
-    height: 80px;
     padding-left: 15px;
     padding-right: 15px;
+    
 
 }
 .logo-fist,
@@ -62,7 +62,7 @@ li {
     color: var(--accent-color);
 }
 .list-nav .link {
-    display: inline-block;
+   
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -77,7 +77,7 @@ li {
     color: var(--accent-color);
 }
 .list-contacts .link {
-    display: inline-block;
+   
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -92,16 +92,17 @@ li {
 
 /*hero*/
 .container-hero {
-    height: 600px;
+   
+    text-align: center;
 }
 h1 {
-  
-   display: inline-block
+    
+    margin-top: 0;
     font-weight: 900;  
     font-size: 44px;
     line-height:1.36;
-    text-align: center;
     letter-spacing: 0.06em;
+    margin-bottom: 30px;
     text-transform: uppercase;
     color: var(--primary-white-color);
    
@@ -109,9 +110,7 @@ h1 {
 
 
 .button {
-    
-    
-    display: flex;
+       
     padding: 10px 32px;
     min-width: 200px;
     font-family: inherit;
@@ -119,7 +118,6 @@ h1 {
     font-size: 16px;
     line-height: 1.87;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     border-radius: 4px solid;
     cursor: pointer;
@@ -141,8 +139,19 @@ h1 {
     background-color: var(--primary-white-color);
 }
 /*peculiarities*/
+.container-post {
+    text-align: center;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 .post-title {
-    
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -152,7 +161,9 @@ h1 {
 
 }
 .post-text {
-    
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 94px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -161,10 +172,17 @@ h1 {
 
 }
 /*we doing */
+.container-section {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 .section-name 
 {
-    padding: 0;
+  
     margin: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -172,9 +190,14 @@ h1 {
     line-height: 1.17;
     color: var(--title-tex-color);
 }
+.content-link {
+    margin-bottom: 188px;
+}
 /*our team*/
 
 .box-name {
+    margin: 0;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -183,6 +206,8 @@ h1 {
 
 }
 .box-text {
+    margin: 0;
+    margin-bottom: 124px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -232,7 +257,7 @@ h1 {
 }
 /* Portfolio Pagr*/
 .btn {
-    display: inline-block;
+    
     font-family: inherit;
     border-radius: 4px solid transparent;
     font-weight: 500;

@@ -1,0 +1,233 @@
+:root {
+    --primary-text-color: #757575;
+    --title-tex-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --primary-background-color:#E5E5E5;
+    --secondary-background-color:#2F303A;
+}
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 14px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+/*heder*/
+.logo-fist,
+.logo-second {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+
+}
+.logo-second {
+    color: #000000;
+
+}
+.logo-fist{
+    color: var(--accent-color);
+}
+.list-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-tex-color);
+} 
+.list-nav .link.current {
+    color: var(--accent-color);
+}
+.list-nav .link:hover,
+.list-nav .link:focus {
+    color: var(--accent-color);
+}
+.list-contacts .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+}
+.list-contacts .link:hover,
+.list-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/*hero*/
+h1 {
+   
+    font-weight: 900;  
+    font-size: 44px;
+    line-height:1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+   
+}
+
+
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    
+}
+.button:hover,
+.button:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+}
+.button .primary {
+    color: var(--title-tex-color);
+    background-color: #F5F4FA;
+}
+.button .secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
+/*peculiarities*/
+.post-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-tex-color);
+
+}
+.post-text {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+/*we doing */
+.section-name 
+{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: var(--title-tex-color);
+}
+/*our team*/
+
+.box-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-tex-color);
+
+}
+.box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+
+/* basement */
+
+.logo-third,
+.logo-fourth {
+    
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-third {
+    cursor: none;
+    color: var(--accent-color);
+
+}
+.logo-fourth {
+    cursor: none;
+    color: var(--primary-white-color);
+}
+.address li {
+
+    cursor: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    
+}
+.address .link {
+    cursor: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+/* Portfolio Pagr*/
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--title-tex-color);
+}
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+/*portfolio section*/
+.card-name {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-tex-color);
+}
+.card-tex {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+

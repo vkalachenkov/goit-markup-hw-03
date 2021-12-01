@@ -319,7 +319,7 @@ h1 {
 /* basement */ 
 .footer {
     display: block;
-    cursor: none;
+    
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--secondary-background-color);
@@ -342,14 +342,15 @@ h1 {
 
 }
 .logo-fourth {
-    cursor: none;
+   
     color: var(--primary-white-color);
 }
 .address li {
     display: block;
     margin: 0;
     padding-bottom: 9px; 
-    cursor: none;
+   
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -360,8 +361,8 @@ h1 {
 .address .link {
     display: block;
     margin: 0;
+    font-style: normal;
     
-    cursor: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

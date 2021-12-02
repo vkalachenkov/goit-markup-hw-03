@@ -97,8 +97,7 @@ li {
 
 .list-nav .link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -123,8 +122,7 @@ li {
 }
 .list-contacts .link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
 
     font-weight: 500;
     font-size: 14px;

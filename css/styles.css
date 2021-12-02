@@ -194,7 +194,7 @@ h1 {
     
     background: var(--primary-white-color);
     padding-top: 94px;
-    padding-bottom: 47px;
+    padding-bottom: 94px;
    
        }
 .post-list {
@@ -235,7 +235,7 @@ h1 {
 
 /*we doing */
 .we-doing {
-    padding-top: 47px;
+    
     padding-bottom: 94px;
     
     background: var(--primary-white-color);
